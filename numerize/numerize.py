@@ -63,7 +63,7 @@ def denumerize(n):
 
         suffix_val = sci_expr[sufixes.index(suffix)]
 
-        result = int(num) * suffix_val
+        result = float(num) * suffix_val
 
         return result
 
